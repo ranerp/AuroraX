@@ -1,10 +1,13 @@
 #define GLFW_INCLUDE_GLU
 
 #pragma once
-#include "GL\glew.h"
+
+#include "GL/glew.h"
 #define GLFW_DLL
-#include "GLFW\glfw3.h"
+#include "GLFW/glfw3.h"
 #include <iostream>
+
+#include "IO/FileIO.h"
 
 using namespace std;
 
